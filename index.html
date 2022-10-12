@@ -8,6 +8,8 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="assets/fonts/style.css">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css">
 
@@ -16,10 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
+
 </head>
 
   <body>
-
     <header id="header">
         <nav class="container">
             <a class="logo" href="#"> beauty<span>salon</span>.</a>
@@ -40,6 +42,7 @@
     </header>
 
     <main>
+        <!-- ======= HOME =======-->
         <section class="section" id="home">
             <div class="container grid">
                 <div class="image">
@@ -52,9 +55,11 @@
                 </div>
             </div>
         </section>
+        <!-- ======= XXXXXXX =======-->
 
         <div class="divider-1"> </div>
         
+        <!-- ======= ABOUT =======-->
         <section class="section" id="about">
             <div class="container grid">
                 <div class="image">
@@ -73,9 +78,11 @@
                 </div>
             </div>
         </section>
+        <!-- ======= XXXXXXX =======-->
         
         <div class="divider-2"> </div>
 
+        <!-- ======= SERVICES =======-->
         <section class="section" id="services">
             <div class="container grid">
                 <header>
@@ -108,8 +115,112 @@
                 </div>
             </div>
         </section>
-    </main>    
+        <!-- ======= XXXXXXX =======-->
 
+        <div class="divider-1"> </div>
+        
+        <!-- ======= TESTIMONIALS =======-->
+        <section class="section" id="testimonials">
+            <div class="container swiper">
+                <header>
+                    <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+                </header>
+                <div class="testimonials swiper-container">
+                    <div class="swiper-wrapper"> 
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, in deserunt porro eligendi recusandae odit suscipit cupiditate veritatis, mollitia natus itaque saepe architecto fuga veniam repellat dolores cumque possimus deleniti.
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/94.jpg" alt="Foto de Wanessa Souza">
+                                    Wanessa Souza
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, in deserunt porro eligendi recusandae odit suscipit cupiditate veritatis, mollitia natus itaque saepe architecto fuga veniam repellat dolores cumque possimus deleniti.
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/71.jpg" alt="Foto de Franciele">
+                                    Franciele
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, in deserunt porro eligendi recusandae odit suscipit cupiditate veritatis, mollitia natus itaque saepe architecto fuga veniam repellat dolores cumque possimus deleniti.
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Foto de Isabela Vanega">
+                                    Isabela Vanega
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ======= XXXXXXX =======-->
+
+        <div class="divider-2"> </div>
+
+        <!-- ======= CONTACT =======-->
+        <section class="section" id="contact">
+            <div class="container grid">
+
+                
+                <div class="text">
+                    <h2 class="title">Entre em contato com a gente!</h2>
+                    <p>Entre em contato com a Beautysalon, você pode agendar um horário, enviar suas dúvidas, críticas e sugestões.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55439984016117&text=Ol%C3%A1!" target="_blank" class="button"> <i class="icon-whatsapp"></i> Entrar em contato</a>
+                </div>
+            
+                <div class="links">
+                    <ul class="grid">
+                        <li> <i class="icon-phone" ></i> 11 99845-6754</li>
+                        <li> <i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+                        <li> <i class="icon-mail"></i> contato@Beautysalon.com</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="divider-1"> </div>
+
+    </main>  
+  
+    <!-- ======= FOOTER =======-->
+    <footer class="section">
+        <div class="container grid">
+            <div class="brand">
+                <a class="logo logo-alt" href="#home"> beauty<span>salon.</span></a>
+                <p>©2022 Beautysalon</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+
+            <div class="social">
+                <a href="https://instagram.com" target="_blank"><i class="icon-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+    <!--SWIPER-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
   </body>
 </html>
